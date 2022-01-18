@@ -1,0 +1,6 @@
+@media screen and (max-width: 750px){
+    body{
+        display: grid;
+        grid-row: 150px 1fr;
+    }
+}

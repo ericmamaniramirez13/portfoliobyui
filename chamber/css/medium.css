@@ -1,0 +1,38 @@
+@media only screen and (min-width: 751px){
+    
+    nav{
+        padding: 10px 0;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul{
+        list-style-type: none;
+    }
+
+    #navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: rgba(0,0,0,0.2);
+    }
+
+    nav ul li a{
+        border: none;
+    }
+
+    
+
+    footer{
+        padding: 2vw;
+        display: grid;
+        gap: 10px;
+        align-items: center;
+    }
+
+    footer p{
+        grid-column: 1/5;
+    }
+}

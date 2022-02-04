@@ -1,13 +1,22 @@
-@media screen and (min-width: 1095px){
-    body{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 150px 1fr;
+@media only screen and (min-width: 1095px) {
+    li{
+        display: block;
     }
-    header{
-            grid-column: 1 / 3 span;
-        }
-    footer{
-        grid-column: 1 / 5 span;
+    
+    ul{
+        display: flex;
+        justify-content: space-evenly;
     }
-}
+    .ham{
+        display: none;
+    }
+
+    .navigation{
+        grid-column: 3 / span 1;
+        grid-row: 1;
+    }
+
+    .icons{
+        grid-column: 4 / span 1;
+    }
+  }

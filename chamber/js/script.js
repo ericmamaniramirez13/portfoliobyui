@@ -16,3 +16,9 @@ let lastTime = document.lastModified;
 let time = document.querySelector("#modified");
 time.textContent += `Last Updated: ${lastTime}`;
 time.style.color = "white";
+
+const message = document.querySelector("#message");
+
+if (day == 1 || day == 2) {
+    message.style.display = "block";
+}

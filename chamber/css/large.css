@@ -25,6 +25,8 @@
     #hero{
         grid-column: 2/3;
         grid-row: 1/3;
+        background-color: seashell;
+
     }
     #weather {
         grid-column: 1/2;
@@ -77,5 +79,8 @@
     }
     #modified{
         grid-column: 1/4;
+    }
+    .message{
+        display: none;
     }
 }

@@ -52,4 +52,30 @@
     #spotlight p{
         border: 1px solid black;
     }
+    footer{
+        display: grid;
+        text-align: center;
+        background-color: gray;
+        padding: 10px;
+        font-size: 18px;
+        grid-template-columns: 150px 500px 300px;
+        grid-template-rows: 80px 30px 50px
+    }
+    #img_footer{
+        grid-column: 1/2;
+    }
+    .address{
+        text-align: left;
+        grid-column: 2/3;
+    }
+    .info{
+        grid-column: 3/4;
+        height: 50px;
+    }
+    .date{
+        grid-column: 1/4;
+    }
+    #modified{
+        grid-column: 1/4;
+    }
 }

@@ -1,13 +1,16 @@
 @media screen and (max-width: 1020px){
-    
     .nav-menu{
         display: none;
+    }
+    .ham{
+        height: 40px;
+        width: 40px;
     }
     .nav-menu.show{
         display: flex;
         flex-direction: column;
         width: 150px;
-        border: 10px solid black;
+        border: 1px solid black;
         align-items: center;
             
     }

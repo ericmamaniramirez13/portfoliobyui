@@ -45,7 +45,6 @@ body{
     grid-column: 3/6;
     height: 60px;
     display: flexbox;
-    border: 5px solid rgb(199, 50, 50);
 }
 .title {
     grid-column: 4/5;

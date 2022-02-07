@@ -1,6 +1,6 @@
 const ham = document.querySelector(".ham");
-const navigation = document.querySelector(".navigation");
-ham.addEventListener("click", () => {navigation.classList.toggle("responsive")});
+const navigation = document.querySelector(".nav-menu");
+ham.addEventListener("click", () => {navigation.classList.toggle("show")});
 
 let today_date = new Date();
 console.log(today_date);

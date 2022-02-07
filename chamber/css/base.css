@@ -13,23 +13,7 @@ body{
     background-color:seashell;
     /*border: 1px solid black;*/
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: repeat(3, 170px);
-    grid-gap: 10px;
-    height: 540px;
-}
 
-#hero{
-    grid-column: 2/3;
-    grid-row: 1/3;
-    border: 1px solid black;
-}
-#spotlight{
-    grid-column: 3/4;
-    grid-row: 1/4;
-}
 .boxes{
     background-color: rgb(252, 178, 125);
 }

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 150px 150px 0;
+    background-color:seashell;
+}
+.container{
+    max-width: 100%;
+    background-color:seashell;
+    /*border: 1px solid black;*/
+}
+
+.boxes{
+    background-color: rgb(252, 178, 125);
+}
+.header {
+    display: grid;
+    background-color: rgb(88, 199, 255);
+    height: 140px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    grid-template-columns: 50px 100px 100px auto 50px 150px;
+    grid-template-rows: 80px 80px;
+}
+.logo{
+    width: 100px;
+    grid-column: 3/4; 
+}
+
+.icon{
+    width: 40px;
+}
+.icons{
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+.navegator {
+    grid-row: 2/3;
+    grid-column: 3/6;
+    height: 60px;
+    display: flexbox;
+}
+.title {
+    grid-column: 4/5;
+    text-align: center;
+    align-items: center;
+    border: 1px solid red;
+    justify-content: center;
+}
+.nav-menu{
+    background-color: lightblue;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    line-height: 50px;
+    border: 1px solid white;
+    justify-content: space-evenly;
+    padding: 0px 5px;
+}
+.nav-menu a{
+    padding: 10px 5px;
+}
+.nav-menu a:hover {
+    color: white;
+    background-color: #69b8d5;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.nav-menu a:link {
+    color: rgb(44, 42, 52);
+}
+
+.date{
+    font-size: 20px;
+    color: whitesmoke;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    font-size: 18px;
+}

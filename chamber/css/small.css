@@ -19,7 +19,6 @@
         grid-row: 1/2;
         text-align: center;
         background-color: seashell;
-        border: 1px solid black;
     }
     #spotlight{
         grid-row: 6/8;

@@ -2,6 +2,9 @@
     .title{
         font-size: 15px;
     }
+    #banner{
+        width: 300px;
+    }
     main{
         display: grid;
         grid-template-columns: 1fr;
@@ -14,6 +17,9 @@
     }
     #hero{
         grid-row: 1/2;
+        text-align: center;
+        background-color: seashell;
+        border: 1px solid black;
     }
     #spotlight{
         grid-row: 6/8;
@@ -49,5 +55,16 @@
     }
     #modified{
         grid-row: 5/6;
+    }
+    #hero button{
+        
+        background-color: lightgreen;
+        color: black;
+        font-size: 14px;
+        border-radius: 15px;
+        padding: 5px;
+        position: absolute;
+        top: 41%;
+        right: 28%;
     }
 }

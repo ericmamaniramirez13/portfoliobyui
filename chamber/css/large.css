@@ -14,6 +14,7 @@
         border: 1px solid white;
         justify-content: space-evenly;
         padding: 0px 5px;
+        position: relative;
     }
     main{
         display: grid;
@@ -26,7 +27,7 @@
         grid-column: 2/3;
         grid-row: 1/3;
         background-color: seashell;
-
+        position: relative;
     }
     #weather {
         grid-column: 1/2;
@@ -60,7 +61,7 @@
         background-color: gray;
         padding: 10px;
         font-size: 18px;
-        grid-template-columns: 150px 500px 300px;
+        grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 80px 30px 50px
     }
     #img_footer{
@@ -82,5 +83,27 @@
     }
     .message{
         display: none;
+    }
+    #join button{
+        background-color: lightgreen;
+        color: black;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    #hero{
+        position: relative;
+    }
+    #hero button{
+        
+        background-color: lightgreen;
+        color: black;
+        border-radius: 15px;
+        padding: 10px;
+        position: absolute;
+        top: 45%;
+        right: 5px;
+    }
+    #banner{
+        max-width: 500px;
     }
 }

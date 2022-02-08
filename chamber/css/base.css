@@ -27,6 +27,7 @@ body{
     left:0;
     grid-template-columns: 50px 100px 100px auto 50px 150px;
     grid-template-rows: 80px 80px;
+    z-index: 5;
 }
 .logo{
     width: 100px;

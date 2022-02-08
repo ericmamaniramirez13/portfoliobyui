@@ -13,9 +13,12 @@ body{
     background-color:seashell;
     /*border: 1px solid black;*/
 }
-
+.travel_logo{
+    width: 50px;
+}
 .boxes{
     background-color: rgb(252, 178, 125);
+    text-align: center;
 }
 .header {
     display: grid;

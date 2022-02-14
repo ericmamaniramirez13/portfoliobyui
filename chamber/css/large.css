@@ -92,6 +92,7 @@
     }
     #hero{
         position: relative;
+        /*border: 5px solid black;*/
     }
     #hero button{
         
@@ -100,10 +101,9 @@
         border-radius: 15px;
         padding: 10px;
         position: absolute;
-        top: 45%;
+        top: 85%;
         right: 18px;
     }
-    #banner{
-        max-width: 500px;
-    }
+    /*#banner{
+        max-width: 500px;*/
 }

@@ -41,7 +41,14 @@
             <p id="message"> "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
         </div>
         <div class = "boxes" id = "hero">
-            <img id = "banner" src ="images/background.jpg" alt="image_background">
+
+            <picture>
+                <source srcset="images/medium.jpg" media="(min-width: 751px) and (max-width: 1020px)">
+                <source srcset="images/large.jpg" media="(min-width: 1020px)">
+                <img id="min_banner" src="images/small.jpg" alt="hero image" >
+            </picture>
+
+            <!--<img id = "banner" src ="images/background.jpg" alt="image_background">-->
             <button>Join the Chamber</button>
         </div>
         <div class = "boxes" id = "weather">

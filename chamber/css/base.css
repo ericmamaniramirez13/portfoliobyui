@@ -2,7 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+#message{
+    display: none;
+}
 body{
     font-family: sans-serif;
     padding: 150px 150px 0;
@@ -41,7 +43,7 @@ body{
     width: 40px;
 }
 .icons{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     justify-content: space-evenly;
 }
 .navegator {
@@ -54,7 +56,7 @@ body{
     grid-column: 4/5;
     text-align: center;
     align-items: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     justify-content: center;
 }
 .nav-menu{

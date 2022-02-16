@@ -81,9 +81,6 @@
     #modified{
         grid-column: 1/4;
     }
-    .message{
-        display: none;
-    }
     #join button{
         background-color: lightgreen;
         color: black;

@@ -69,4 +69,8 @@
         top: 82%;
         right: 15%;
     }
+    /*Discover*/
+    .discover_pictures img:hover{
+        box-shadow: none;  
+    }
 }

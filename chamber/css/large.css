@@ -23,11 +23,13 @@
         grid-gap: 10px;
         height: 540px;
     }
-    #hero{
+    #hero {
         grid-column: 2/3;
         grid-row: 1/3;
         background-color: seashell;
         position: relative;
+        /*border: 3px solid black;*/
+        width: 600px;
     }
     #weather {
         grid-column: 1/2;
@@ -87,10 +89,7 @@
         border-radius: 15px;
         padding: 10px;
     }
-    #hero{
-        position: relative;
-        /*border: 5px solid black;*/
-    }
+    
     #hero button{
         
         background-color: lightgreen;
@@ -98,9 +97,13 @@
         border-radius: 15px;
         padding: 10px;
         position: absolute;
-        top: 85%;
-        right: 18px;
+        top: 82%;
+        right: 10px;
     }
     /*#banner{
-        max-width: 500px;*/
+        max-width: 500px;}*/
+    #hero picture {
+        position: absolute;
+        left: 100px;
+    }
 }

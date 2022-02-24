@@ -2,9 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-#message{
-    display: none;
-}
+
 body{
     font-family: sans-serif;
     padding: 150px 150px 0;
@@ -18,10 +16,7 @@ body{
 .travel_logo{
     width: 50px;
 }
-.boxes{
-    background-color: rgb(252, 178, 125);
-    text-align: center;
-}
+
 .header {
     display: grid;
     background-color: rgb(88, 199, 255);
@@ -31,20 +26,21 @@ body{
     top:0;
     left:0;
     grid-template-columns: 50px 100px 100px auto 50px 150px;
-    grid-template-rows: 80px 80px;
+    grid-template-rows: 85px 80px;
     z-index: 5;
 }
 .logo{
     width: 100px;
-    grid-column: 3/4; 
+    grid-column: 3/4;
 }
 
 .icon{
-    width: 40px;
+    width: 35px;
 }
 .icons{
     /*border: 1px solid black;*/
-    justify-content: space-evenly;
+    grid-column: 5/6;
+    
 }
 .navegator {
     grid-row: 2/3;
@@ -96,8 +92,6 @@ footer{
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 80px 30px 50px
 }
-/* Discover Page*/
-
 .discover_pictures{
     display: flex;
     flex-direction: column;

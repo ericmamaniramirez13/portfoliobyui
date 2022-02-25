@@ -1,0 +1,45 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table{
+    max-width: 40%;
+    margin: 50px auto;
+}
+
+th, td{
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+}
+
+
+caption {
+    padding: 10px;
+    font-size: 3.5rem;
+    background-color: rgb(169, 214, 255);
+}
+
+thead th{
+    background-color: rgb(124, 174, 189);
+    color: snow;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(189, 198, 199);
+}
+
+tr:nth-child(even){
+    background-color: rgb(199, 215, 236);
+}
+
+tr:nth-child(4) td:nth-child(3){    
+    background-color: rgb(124, 174, 189);
+}
+
+tfoot td{
+    font-size: small;
+}

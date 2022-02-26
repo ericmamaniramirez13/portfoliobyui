@@ -23,11 +23,13 @@
         grid-gap: 10px;
         height: 540px;
     }
-    #hero{
+    #hero {
         grid-column: 2/3;
         grid-row: 1/3;
         background-color: seashell;
         position: relative;
+        /*border: 3px solid black;*/
+        width: 600px;
     }
     #weather {
         grid-column: 1/2;
@@ -81,18 +83,13 @@
     #modified{
         grid-column: 1/4;
     }
-    .message{
-        display: none;
-    }
     #join button{
         background-color: lightgreen;
         color: black;
         border-radius: 15px;
         padding: 10px;
     }
-    #hero{
-        position: relative;
-    }
+    
     #hero button{
         
         background-color: lightgreen;
@@ -100,10 +97,13 @@
         border-radius: 15px;
         padding: 10px;
         position: absolute;
-        top: 45%;
-        right: 18px;
+        top: 82%;
+        right: 10px;
     }
-    #banner{
-        max-width: 500px;
+    /*#banner{
+        max-width: 500px;}*/
+    #hero picture {
+        position: absolute;
+        left: 100px;
     }
 }

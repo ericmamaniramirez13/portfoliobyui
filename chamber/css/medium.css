@@ -83,6 +83,7 @@
     #hero{
         width: 500px;
         position: relative;
+        /*border: 5px solid black;*/
     }
     
     #hero button{
@@ -92,7 +93,7 @@
         border-radius: 15px;
         padding: 10px;
         position: absolute;
-        top: 82%;
-        right: 4%;
+        top: 75%;
+        right: 20%;
     }
 }

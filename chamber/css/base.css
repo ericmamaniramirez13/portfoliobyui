@@ -14,6 +14,7 @@ body{
     max-width: 100%;
     background-color:seashell;
     /*border: 1px solid black;*/
+    
 }
 .travel_logo{
     width: 50px;
@@ -107,3 +108,89 @@ footer{
     box-shadow: 0 0 50px #333;  
 }
 
+
+
+/* Join Page*/
+.container_join {
+    position: relative;
+    align-items: center;
+    border: 3px solid black;
+    text-align: center;
+    height: 1760px;
+}
+form{
+
+    /*width: 700px;*/
+	background-color: rgb(255, 220, 193);
+    /*height: 1700px;*/
+    position: absolute;
+    top:0px;
+    right: 250px;
+
+}
+
+form h2{
+	text-align: center;
+	padding: 15px;
+}
+
+form fieldset{
+	margin: 1.5rem auto;
+	padding: .8rem;
+	border-radius: 10px;
+	max-width: 80%;
+    border: 3px solid black;
+}
+
+form legend{
+	padding: .2rem .8rem;
+	border: 1.5px solid rgba(0,0,0,0.5);
+}
+
+
+form label.top, form div{
+	display: block;
+	padding-top: .5rem;
+	margin: 10px auto;
+	max-width: 90%;
+}
+
+form label.top input, form label.top textarea{
+	display: block;
+	padding: .75rem;
+	width: 95%;
+	border-radius: 5px;
+}
+
+form label.sbs{
+	display: block;
+}
+
+form label.sbs input{
+	margin: 5px;
+	padding: .75rem;
+	font-weight: 700px;
+}
+
+form label.sbs span{
+	background-color: #762107;
+	color: snow;
+	padding: 5px 15px;
+	border-radius: 15px;
+	margin-left: 30px;
+}
+
+form input.send{
+	margin: 1.5rem 0 1.5rem 2.5rem;
+	padding: .8rem;
+	border-radius: 50px;
+	background-color: #ACCE22;
+}
+
+form label.top input:required{
+	border-left: red solid	 6px;
+}
+
+form label.top input:required:valid{
+	border-left: green solid 6px;
+}

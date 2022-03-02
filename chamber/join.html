@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="chamber assignment">
+    <title>Home Page</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous' defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container_join">
+    <header class="header">
+        <img class="logo" src="images/logo.jpg" alt="Logo">
+            <h1 class = "title">Point of the Mountain Chamber</h1>
+        <div class="icons">
+            <a href="https://www.youtube.com/"><img class="icon" src="images/youtube.jpg" alt="facebook icon"></a>
+            <a href="https://www.facebook.com//"><img class="icon" src="images/face.jpg" alt="linkdin icon"></a>
+        </div>
+        <nav class="navegator">
+            <button class="ham">&#9776;</button>
+            <ul class="nav-menu">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+
+        <form action="thankyou.html" method="get">
+            <h2>FORM</h2>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label class="top">
+                    First name*:
+                    <input type="text" id="fname" name="fname" required></label><br>
+                <label class="top">
+                    Last name*:
+                    <input type="text" id="lname" name="lname" required></label><br>
+                <label class="top">
+                    E-mail address:<input type="email" id="email" name="email" placeholder="username@email.com">
+                </label><br>
+                <label class="top">
+                    Celphone number:
+                    <input type="tel" id="phone" name="phone" placeholder="(xxx) 444-4444">
+                </label><br>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Business</legend>
+                <label class="top">
+                    Business position:
+                    <input type="text" id="businessPos" name="businessPos"></label><br>
+                
+                <label class="top">
+                    Business name*:
+                    <input type="text" id="businessName" name="businessName" required></label><br>
+                
+                <label class="top">
+                    Business description:
+                <textarea id="description" name="description" rows="6"></textarea></label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>Select a membership level:</div>
+                <label class="sbs"><input class="radio" type="radio" id="level1" name="membLevel" value="NP Membership"
+                    checked>Non-Profit
+                <span>Free</span></label>
+                <div>Point of the Mountain Chamber. Enjoy basic benefits like weekly news on events in our community.</div>
+                <label class="sbs"><input class="radio" type="radio" id="level2" name="membLevel" value="Bronze Membership">Bronze
+                <span>$80</span></label>
+                <div>Point of the Mountain Chamber. Access to our community house.</div>
+                <label class="sbs"><input class="radio" type="radio" id="level3" name="membLevel" value="Silver Membership">Silver
+                <span>$150</span></label>
+                <div>Point of the Mountain Chamber. Enjoy many discounts with our partners around the city</div>
+                <label class="sbs"><input class="radio" type="radio" id="level4" name="membLevel" value="Gold Membership">Gold
+                <span>$300</span></label>
+                <div>Point of the Mountain Chamber. Have access to everything as a vip member of our community.</div>
+            </fieldset>
+      
+            <label class="sendBtn"><input class="send" name="button" type="button" value="Join the Chamber"></label>
+
+            <input type="hidden" id="postId" name="postId" value="datetime">
+
+            <div class="membershipInfo">
+
+            </div>
+        </form>
+
+    </main>
+</div>
+    <footer>
+        <div id = "img_footer">
+        <img class="logo" src="images/logo.jpg" alt="Logo"></div>
+        <section class="address">
+            <h4>Point of the Mountain Chamber</h4>
+            <p>114 W 2nd S</p>
+            <p>Rexburg, ID 83440</p>
+        </section>
+        <div class="info">
+            <p>mauntain@gmail.com</p>
+            <p>8014547147</p>
+            <i style='font-size:24px' class='fas'>&#xf0ac;</i>
+        </div>
+
+        <p class="date"></p>
+        <h4 id="modified">&copy;2022 .:|:. <b>Eric Mamani</b> .:|:. WDD-230 Project| Chile |  </h4>
+    </footer>
+</body>
+</html>

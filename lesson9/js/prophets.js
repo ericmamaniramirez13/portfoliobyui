@@ -23,10 +23,10 @@ function displayProphets(prophet) {
   let birthPlace = document.createElement('p');
 
   // Add/append the section(card) with the h2 element
-  card.appendChild(portrait);
   card.appendChild(h2);
   card.appendChild(lifeSpan);
   card.appendChild(birthPlace);
+  card.appendChild(portrait);
 
   // Change the textContent property of the h2 element to contain the prophet's full name
   h2.textContent = `${prophet.name} ${prophet.lastname}`

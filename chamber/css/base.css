@@ -111,22 +111,29 @@ footer{
 
 
 /* Join Page*/
-.container_join {
+/*.container_join {
     position: relative;
     align-items: center;
     border: 3px solid black;
     text-align: center;
     height: 1760px;
+}*/
+#main_join{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border:10px solid red;
+    height: 1760px;
+    text-align: center;
 }
 form{
 
     /*width: 700px;*/
 	background-color: rgb(255, 220, 193);
-    /*height: 1700px;*/
-    position: absolute;
+    /*position: absolute;
     top:0px;
-    right: 250px;
-
+    right: 250px;*/
+    grid-column: 2/3;
+    height: 1700px;
 }
 
 form h2{

@@ -5,19 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="chamber assignment">
-    <title>Home Page</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous' defer></script>
+    <title>Directory Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script src="js/script.js" defer></script>
-    <script src="js/weatherapi.js" defer></script>
+    <script src="weatherapi.js" defer></script>
 </head>
 
 <body>
-    <div class="container">
     <header class="header">
         <img class="logo" src="images/logo.jpg" alt="Logo">
             <h1 class = "title">Point of the Mountain Chamber</h1>
@@ -32,51 +29,21 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="directory.html">Contact</a></li>
+                <li><a href="directory.html">Directory</a></li>
             </ul>
         </nav>
 
     </header>
-    
+
     <main>
-        <div class = "boxes" id = "event">
-            <h3>Events</h3>
-            <p id="message"> "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
-        </div>
-        <div class = "boxes" id = "hero">
-
-            <picture>
-                <source srcset="images/medium.jpg" media="(min-width: 751px) and (max-width: 1020px)">
-                <source srcset="images/large.jpg" media="(min-width: 1020px)">
-                <img id="min_banner" src="images/small.jpg" alt="hero image" >
-            </picture>
-
-            <!--<img id = "banner" src ="images/background.jpg" alt="image_background">-->
-            <button>Join the Chamber</button>
-        </div>
-        <div class = "boxes" id = "weather">
-            <h3>Weather Provo, UT</h3>
+        <section class="weather">
+            <h3>Weather</h3>
             <img src="" alt="" id="weathericon" />
             <p class="temp"><span id="current-temp"></span> &deg;F,</p>
             <p id="windChill">Wind Chill:</p">
             <p id="figcaption"></p>
             <p id="windspeed">Wind Speed: </p>
-            <p>Windchill: <span id="wind"></span>&deg;</p>
-        </div>
-        <div class = "boxes" id = "join">
-            <button>Join Us!</button>
-            <p>There are many benefits in our community for you to enjoy.</p>
-        </div>
-        <div class = "boxes" id = "news">
-            <h3>News Release</h3>
-            <img class="travel_logo" src="images/travel.png" alt="travel Logo">
-            <p>We have many resources when it comes to find places to go and visit.</p>
-        </div>
-        <div class = "boxes" id = spotlight>
-            <p>Spotlight</p>
-            <p>Spotlight2</p>
-            <p class="spot3">Spotlight3</p>
-        </div>
+        </section>    
     </main>
 
     <footer>
@@ -90,12 +57,11 @@
         <div class="info">
             <p>mauntain@gmail.com</p>
             <p>8014547147</p>
-            <i style='font-size:24px' class='fas'>&#xf0ac;</i>
+            <div>🌎 Location Map</div>
         </div>
 
         <p class="date"></p>
         <h4 id="modified">&copy;2022 .:|:. <b>Eric Mamani</b> .:|:. WDD-230 Project| Chile |  </h4>
     </footer>
-    </div>
 </body>
 </html>

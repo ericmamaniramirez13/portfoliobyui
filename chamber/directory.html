@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="chamber assignment">
-    <title>Home Page</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous' defer></script>
+    <title>Directory Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/script.js" defer></script>
+    <script src="js/script_json.js" defer></script>
 </head>
 
 <body>
@@ -36,69 +36,12 @@
 
     </header>
 
-    <main>
-        <div class="container_join">
-        <form action="thankyou.html" method="get">
-            <h2>FORM</h2>
-            <fieldset>
-                <legend>Personal Info</legend>
-                <label class="top">
-                    First name*:
-                    <input type="text" id="fname" name="fname" required></label><br>
-                <label class="top">
-                    Last name*:
-                    <input type="text" id="lname" name="lname" required></label><br>
-                <label class="top">
-                    E-mail address:<input type="email" id="email" name="email" placeholder="username@email.com">
-                </label><br>
-                <label class="top">
-                    Celphone number:
-                    <input type="tel" id="phone" name="phone" placeholder="(xxx) 444-4444">
-                </label><br>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Business</legend>
-                <label class="top">
-                    Business position:
-                    <input type="text" id="businessPos" name="businessPos"></label><br>
-                
-                <label class="top">
-                    Business name*:
-                    <input type="text" id="businessName" name="businessName" required></label><br>
-                
-                <label class="top">
-                    Business description:
-                <textarea id="description" name="description" rows="6"></textarea></label><br>
-            </fieldset>
-
-            <fieldset>
-                <legend>Membership Level</legend>
-                <div>Select a membership level:</div>
-                <label class="sbs"><input class="radio" type="radio" id="level1" name="membLevel" value="NP Membership"
-                    checked>Non-Profit
-                <span>Free</span></label>
-                <div>Point of the Mountain Chamber. Enjoy basic benefits like weekly news on events in our community.</div>
-                <label class="sbs"><input class="radio" type="radio" id="level2" name="membLevel" value="Bronze Membership">Bronze
-                <span>$80</span></label>
-                <div>Point of the Mountain Chamber. Access to our community house.</div>
-                <label class="sbs"><input class="radio" type="radio" id="level3" name="membLevel" value="Silver Membership">Silver
-                <span>$150</span></label>
-                <div>Point of the Mountain Chamber. Enjoy many discounts with our partners around the city</div>
-                <label class="sbs"><input class="radio" type="radio" id="level4" name="membLevel" value="Gold Membership">Gold
-                <span>$300</span></label>
-                <div>Point of the Mountain Chamber. Have access to everything as a vip member of our community.</div>
-            </fieldset>
-      
-            <label class="sendBtn"><input class="send" name="button" type="button" value="Join the Chamber"></label>
-
-            <input type="hidden" id="postId" name="postId" value="datetime">
-
-            <div class="membershipInfo">
-
+    <main id = "main_directory">
+            <div class="buttons">
+                <button class="listBtn" onclick = "setListStyle()"><img src="images/directory/list.png" alt="list icon"></button>
+                <button class="cardBtn" onclick = "setCardsStyle()"><img src="images/directory/cards.png" alt="cards icon"></button>
             </div>
-        </form>
-    </div>
+            <div class="cards"></div>
     </main>
 
     <footer>
@@ -112,7 +55,7 @@
         <div class="info">
             <p>mauntain@gmail.com</p>
             <p>8014547147</p>
-            <i style='font-size:24px' class='fas'>&#xf0ac;</i>
+            <div>🌎 Location Map</div>
         </div>
 
         <p class="date"></p>

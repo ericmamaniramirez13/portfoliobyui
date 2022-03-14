@@ -28,11 +28,11 @@ else{
     message.textContent = `Today is: ${weekday}`;
 }
 
-var temp= -5;
+/*var temp= -5;
 var wSpeed= 15;
 var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
 var windChill= Math.round(windChill);
-document.getElementById("wind").innerHTML= windChill;
+document.getElementById("wind").innerHTML= windChill;*/
 
 //Discover Script

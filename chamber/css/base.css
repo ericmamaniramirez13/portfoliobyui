@@ -207,8 +207,8 @@ form label.top input:required:valid{
 
 #main_directory{
     display: flex;
-    height: 1450px;
-    /*display: grid;
+    /*height: 1450px;
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 50px 1fr;*/
     /*border: 10px solid black;*/

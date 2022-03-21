@@ -21,7 +21,7 @@
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: repeat(3, 170px);
         grid-gap: 10px;
-        height: 540px;
+        /*height: 540px;*/ 
     }
     #hero {
         grid-column: 2/3;

@@ -18,7 +18,7 @@
         "name": "PEG Companies",
         "adress": "180 N University Ave Ste 200, Provo, UT 84601",
         "phone": "(123) 123-1234",
-        "site": "https://www.peg.com.",
+        "site": "https://www.peg.com",
         "logourl": "images/directory/peg.png"
       },
       {
@@ -64,25 +64,25 @@
         "logourl": "images/directory/super.jpg"
       },
       {
-        "name": "Street Tacos Don Joaquin",
-        "adress": "150 W Cougar Blvd, Provo, UT 84604",
+        "name": "Little Caesars Pizza",
+        "adress": "1260 N State St, Provo, UT 84604",
         "phone": "(123) 123-1234",
-        "site": "stdonjoaquin.com",
-        "logourl": "images/directory/donjoaquin.png"
+        "site": "https://littlecaesars.com/",
+        "logourl": "images/directory/little.jpg"
       },
       {
-        "name": "McDonal",
-        "adress": "211 W 1230 N, Provo, UT 84604",
-        "phone": "(123) 123-1234",
-        "site": "https://www.mcdonals.com",
-        "logourl": "images/directory/mcdonald.jpg"
+        "name": "Sonic",
+        "adress": "1296 N State St, Provo, UT 84604",
+        "phone": "(801) 377-6100",
+        "site": "https://www.sonicdrivein.com/",
+        "logourl": "images/directory/sonic.jpg"
       },
       {
-        "name": "PEG Companies",
-        "adress": "180 N University Ave Ste 200, Provo, UT 84601",
-        "phone": "(123) 123-1234",
-        "site": "https://www.peg.com.",
-        "logourl": "images/directory/peg.png"
+        "name": "Internexus Provo",
+        "adress": "2121 N 550 W Ste 100, Provo, UT 84604",
+        "phone": "(801) 717-2141",
+        "site": "https://internexusprovo.edu/",
+        "logourl": "images/directory/internexus.jpg"
       }
     ]
   }

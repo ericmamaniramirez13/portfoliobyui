@@ -96,7 +96,7 @@ footer{
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 80px 30px 50px
 }
-/* Discover Page*/
+/*--------------------------------------Discover PAGE--------------------------------------*/
 
 .discover_pictures{
     display: flex;
@@ -110,7 +110,7 @@ footer{
 
 
 
-/* Join Page*/
+/*--------------------------------------JOIN PAGE--------------------------------------*/
 /*.container_join {
     position: relative;
     align-items: center;
@@ -199,6 +199,33 @@ form label.top input:required{
 
 form label.top input:required:valid{
 	border-left: green solid 6px;
+}
+
+/*--------------------------------------THANK YOU PAGE--------------------------------------*/
+#main_thank_you {
+    display: block;
+}
+.thanks{
+	max-width: 90%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.thanks p{
+	margin-bottom: 50px;
+}
+
+.home{
+	background-color: #ACCE22;
+	border-radius: 50px;
+	padding: 15px 50px;
+	margin-bottom: 25px;
+	font-size: 1.5rem;
+}
+
+.thanksTitle{
+	font-size: 2.5rem;
+	margin: 20px 0;
 }
 
 

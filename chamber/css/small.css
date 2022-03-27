@@ -5,7 +5,7 @@
     /*#banner{
         width: 300px;
     }*/
-    main{
+    #main_main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, 165px);
@@ -72,5 +72,8 @@
     /*Discover*/
     .discover_pictures img:hover{
         box-shadow: none;  
+    }
+    #main_join{
+        border: 2px solid black;
     }
 }

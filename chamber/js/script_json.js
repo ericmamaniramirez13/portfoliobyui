@@ -32,7 +32,7 @@ function displayCards(business) {
   logo.setAttribute('src', business.logourl);
   logo.setAttribute('alt', `Logo of ${business.name}`);
   logo.setAttribute('loading', 'lazy');
-  site.setAttribute("href", business.site); 
+  site.setAttribute("href", business.logo); 
   site.setAttribute("target", "_blank"); 
  
   

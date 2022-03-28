@@ -131,7 +131,7 @@ footer{
 }*/
 #main_join{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr;
     /*border:10px solid red;*/
     /*height: 1760px;*/
     text-align: center;
@@ -143,7 +143,7 @@ form{
     /*position: absolute;
     top:0px;
     right: 250px;*/
-    grid-column: 2/3;
+    grid-column: 1/2;
     /*height: 1700px;*/
 }
 

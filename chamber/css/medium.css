@@ -147,7 +147,7 @@
     .directors{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 80px 1fr 1f 1fr;
+        grid-template-rows: 80px 1fr 1fr 1fr;
         text-align: center;
     }
     .directors section{

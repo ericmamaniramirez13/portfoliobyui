@@ -125,4 +125,7 @@
         grid-column: 1/3;
         font-size: 25px;
     }
+    .contact_form{
+        grid-column: 2/3;
+    }
 }

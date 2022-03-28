@@ -166,4 +166,7 @@
         grid-row: 5/6;
         font-size: 25px;
     }
+    .contact_form{
+        grid-column: 2/3;
+    }
 }

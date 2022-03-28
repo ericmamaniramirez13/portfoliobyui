@@ -139,7 +139,7 @@
             object-fit: cover;
             margin: 5px auto;
         }
-    /*------------------------------------DIRECTORY PAGE------------------------------------*/
+    /*------------------------------------Contact PAGE------------------------------------*/
     #main_contact{
         display: grid;
         grid-template-columns: 1fr 1fr;

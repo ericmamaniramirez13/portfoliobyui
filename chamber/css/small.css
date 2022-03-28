@@ -76,7 +76,7 @@
     #main_join{
         border: 2px solid black;
     }
-    /*------------------------------------DIRECTORY PAGE------------------------------------*/
+    /*------------------------------------Contact PAGE------------------------------------*/
     #main_contact{
         display: grid;
         grid-template-columns: 1fr;

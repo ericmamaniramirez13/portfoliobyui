@@ -1,5 +1,5 @@
 *{
-    width: 500px;
+    width: 400px;
 }
 header {
     background-color: #345bab;
@@ -47,4 +47,8 @@ footer .lastTimeModified{
     text-align: center;
     font-size: 80%;
     
+}
+footer h4{
+    color:white;
+    text-align: center;
 }

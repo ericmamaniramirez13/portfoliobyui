@@ -313,4 +313,7 @@ img.logoImg{
     object-fit: cover;
 	margin: 5px auto;
 }
-/*------------------------------------DIRECTORY PAGE------------------------------------*/
+/*------------------------------------Contact PAGE------------------------------------*/
+.directors img{
+    box-shadow: 5px 5px 5px 0 rgb(212, 209, 208);
+}

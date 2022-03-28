@@ -139,4 +139,31 @@
             object-fit: cover;
             margin: 5px auto;
         }
+    /*------------------------------------DIRECTORY PAGE------------------------------------*/
+    #main_contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .directors{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 1fr 1f 1fr;
+        text-align: center;
+    }
+    .directors section{
+        grid-row: 1/2;
+    }
+    .head{
+        grid-row: 2/3;
+    }
+    .secretary{
+        grid-row: 3/4;
+    }
+    .traturer{
+        grid-row: 4/5;
+    }
+    .directors p{
+        grid-row: 5/6;
+        font-size: 25px;
+    }
 }

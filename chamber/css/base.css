@@ -38,7 +38,6 @@ body{
 .logo{
     width: 100px;
     grid-column: 1/2;
-    border: 5px solid black;
 }
 
 .icon{
@@ -57,7 +56,6 @@ body{
 }
 .title {
     grid-column: 2/3;
-    border: 5px solid black;
     text-align: center;
     align-items: center;
     /*border: 1px solid red;*/
@@ -315,3 +313,4 @@ img.logoImg{
     object-fit: cover;
 	margin: 5px auto;
 }
+/*------------------------------------DIRECTORY PAGE------------------------------------*/

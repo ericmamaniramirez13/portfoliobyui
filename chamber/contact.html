@@ -39,7 +39,52 @@
     
     <main id="main_contact">
 
-     
+            <div class="directors">
+                
+                <section>
+                    <h1>Board of Directors</h1>
+                </section>
+                <div class="head">
+                    <h3>President</h3>
+                    <img src="images\contact\head.jpg" alt="Director">
+                </div>
+                <div class="secretary">
+                    <h3>Secretary</h3>
+                    <img src="images\contact\secretary.jpg" alt="Secretary">
+                </div>
+                <div class="treasure">
+                    <h3>Treasurer</h3>
+                    <img src="images\contact\man.jpg" alt="Treasurer" height="250px">
+                </div>
+                <p>Send us your questions using the form. We will respond
+                    promptly to your inquiry.
+                </p>
+            </div>
+            <form class="contact_form" action="thankyou.html" method="get">
+                <h2>Contact Information</h2>
+                <fieldset>
+                    <legend>Personal</legend>
+                    <label class="top">
+                        Name *
+                        <input type="text" id="fname" name="fname" required></label><br>
+                    <label class="top">
+                        E-mail<input type="email" id="email" name="email" placeholder="yourname@email.com">
+                    </label><br>
+                    <label class="top">
+                        Phone
+                        <input type="tel" id="phone" name="phone" placeholder="(111) 111 1111">
+                    </label><br>
+                    <label class="top">
+                        Coments/Questions
+                    <textarea id="description" name="description" rows="6"></textarea></label><br>
+                </fieldset>
+                <input class="send" name="button" type="submit" value="Join the Chamber">
+                
+                <div class="membershipInfo">
+    
+                </div>
+            </form>
+       
 
     </main>
 
@@ -49,12 +94,12 @@
         <section class="address">
             <h4>Point of the Mountain Chamber</h4>
             <p>114 W 2nd S</p>
-            <p>Rexburg, ID 83440</p>
+            <p>Provo, UT 84602</p>
         </section>
         <div class="info">
             <p>mauntain@gmail.com</p>
             <p>8014547147</p>
-            <div>🌎 Location Map</div>
+            <a target="_blank" href="https://www.google.com/maps/place/Don+Joaquin+Street+Tacos/@40.250944,-111.6630943,17z/data=!3m2!4b1!5s0x874d90a142f99b07:0x275f0fa40322fd65!4m5!3m4!1s0x874d9a0a77d5f11f:0x524960aec2c10b8c!8m2!3d40.2509399!4d-111.6609056">🌎 Location Map</a>
         </div>
 
         <p class="date"></p>

@@ -31,11 +31,13 @@ const output = (temples) => {
 
             let likeImg = document.createElement('img');
             likeImg.className = 'like';
-   
+            likeImg.setAttribute('src', 'images/like.svg');
+            likeImg.setAttribute('alt', 'like button');
             
             let redLikeImg = document.createElement('img');
             redLikeImg.className = 'like';
-
+            redLikeImg.setAttribute('src', 'images/redlike.svg');
+            redLikeImg.setAttribute('alt', 'like button');
 
             
             let services = document.createElement('ul');
@@ -50,7 +52,7 @@ const output = (temples) => {
             card.appendChild(templeName);
             card.appendChild(location);
             card.appendChild(dedicated);
-            
+            card.appendChild(likeImg);
             card.appendChild(services);
             
             let favTemple = window.localStorage.getItem("temple");
@@ -60,7 +62,13 @@ const output = (temples) => {
                 card.removeChild(likeImg);
             }else{
                 card.appendChild(likeImg);
-            };
+            }
+
+            likeImg.addEventListener('click', () => {
+                card.appendChild(redLikeImg);
+                card.removeChild(likeImg);
+                localStorage.setItem("temple", temple.templeName);
+            });
 
             redLikeImg.addEventListener('click', () => {
                 card.removeChild(redLikeImg);

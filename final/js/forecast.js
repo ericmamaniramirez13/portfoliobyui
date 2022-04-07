@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4348599&appid=7c2e05c628cc9aec56f563d671e199d9";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=4348599&appid=7c2e05c628cc9aec56f563d671e199d9";
 
 let cards=[];
 
